@@ -66,3 +66,188 @@ body{
     color:#70b231;
 }
 
+/* css barra de navegación*/
+#nav{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: sans-serif, Arial, Helvetica, Arial;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#nav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 90%;
+}
+
+#nav >ul >li {
+    line-height: 40px;
+    float: left;
+    border-right: 1px solid gray;
+    transition: 300ms;
+
+}
+
+
+#nav >ul >li a {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+<!--
+
+#nav >ul >li a:first-child {
+        border-left: 1px solid gray;
+}
+
+#nav >ul >li:hover {
+    background-color: #70b231;
+    box-shadow: 0px 0px 4px green inset;
+}
+
+/**menu desplegable**/
+#nav >ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 160px;
+    box-shadow: opx 2px 2px gray;
+    z-index: 1;
+}
+
+#nav >ul >li:hover >ul {
+    display: block;
+}
+
+#nav >ul >li:hover >ul >li {
+    background-color: #f2f1f0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 300ms;
+}
+
+#nav >ul >li:hover >ul >li a {
+    color: #333333;
+
+}
+
+#nav >ul >li:hover >ul >li:hover{
+    box-shadow: 0px opx 6px #ccc;
+    background: rgb(202, 242, 187);
+}
+Footer {
+
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #70b231;
+    color: white;}
+/*estilo de formularios*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    border: 1px solid #c9c9c9;
+    box-shadow: 0px 0px 2px #ccc;
+    background: white;
+    padding: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: gray;
+    transition: all 300ms;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus{
+    border: 1px solid #70b231;
+    color: black;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button{
+    display: block;
+    border-radius: 2px;
+    border: 1px solid green;
+    width: 60px;
+    padding: 3px;
+    color: white;
+    background-color: #70b231;
+    cursor: pointer;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover{
+    box-shadow: 0px 0px 2px gray;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active{
+    box-shadow: 0px 0px 3px gray inset;
+    text-shadow: 0px 0px 1px #ccc;
+}
+
+
+
+/* fin de estilo a formularios*/
+
+
+
+    /*caja de contenido*/
+    #content {
+        width: 1250px;
+        min-height: 1100px;
+        margin: 0px auto;
+    }
+
+    /* estilo barra lateral aside*/
+    #aside {
+        width: 200px;
+        float: left;
+        margin: 30px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 2px #ccc;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #aside .witget {
+        display: block;
+        width: 180px;
+        margin: 5px auto;
+        padding: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        border-bottom: 1px dashed #333333;
+    }
+    #aside .witget:last-child{
+        margin-bottom: 20px;
+    }
+    #aside h4 {
+        display: block;
+        width: 100%;
+        color: #333333;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-color: #a8aba5;
+        border: 1px solid #ccc;
+        border-left: none;
+        border-right: none;
+    }
